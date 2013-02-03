@@ -52,6 +52,14 @@ You will need to pick your own a unique name for the service hook.
 
 This will take the repository name as the application name and push that to appfo.com when pushed.
 
+FAQ
+-----
+
+#### It doesn't work with my organization account!
+
+For repositories in an organization account, no email is binding to a push. So you need to add the email `undefined` in whitelist.
+
+     vmc env-add node-vmc-pusher CF_WHITELIST=undefined
 
 Notes
 -----
