@@ -59,7 +59,7 @@ FAQ
 
 For repositories in an organization account, no email is binding to a push. So you need to add the email `undefined` in whitelist.
 
-     vmc env-add node-vmc-pusher CF_WHITELIST=undefined
+     af env-add appfog-github-pusher CF_WHITELIST=undefined
 
 Notes
 -----
